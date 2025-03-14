@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+h2{
+   position: absolute;
+   top: 30%;
+   color: rgb(255, 240, 23);
+}
+
+.container {
+    /* border: 2px solid red; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: cornflowerblue;
+    border-radius: 4px; 
+
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+}
+#user-input{
+
+    padding: 8px;
+    font-size: 15px;
+    text-align: center;
+    border-color: rgb(95, 111, 255);
+    border-radius: 5px;
+    background-color: rgb(219, 255, 254);
+}
+input::placeholder{
+   color: rgb(180, 155, 231);
+}
+input {
+   
+    border: none;
+    outline: none;
+
+}
+.input-btn{
+position: absolute;
+top: 40%;
+}
+
+#search-btn{
+    width: 5rem;
+    padding: 6px;
+    background-color: rgb(73, 191, 234);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
